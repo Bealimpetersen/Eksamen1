@@ -70,6 +70,11 @@ nav ul li a:hover {
 
 main {
 	grid-area: main;
+	font-family: poppins;
+	color: #FCE9F3;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
 }
 
 main.welcomepicture {
@@ -78,6 +83,28 @@ main.welcomepicture {
 	background-repeat: no-repeat;
 	background-position: center;
 	min-height: 300px;
+}
+
+main ul li {
+	list-style: none;
+	display: inline-block;
+	line-height: 50px;
+	border: 1px solid #000;
+	margin: 10px;
+}
+
+main ul li a {
+	font-size: 16px;
+	text-decoration: none; /*fjerner linjen under, der viser det er et link*/
+	font-family: arial;
+	color: black;
+	background-color: #E2DEF0;
+	padding: 0 20px;
+	display: block; /*Gør at man ikke behøver trykke direkte på teksten, men også kan trykke udenom*/
+}
+
+ul li a:hover {
+	background-color: #FCE9F3;
 }
 
 .img-me {
