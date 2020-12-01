@@ -1,8 +1,57 @@
+* {
+margin: 0;
+padding: 0;
+}
 
-h1 {
-  background-color: pink
+header {
+	background-color: #fff;
+}
+
+.logo {
+	padding-left: 50px;
+	padding-top: 30px;
+	border: none;
+	grid-area: left;
 }
 
 nav {
-	background-color: blue
+	display: flex;
+	background-color: #fff;
 }
+
+nav li {
+	flex: 3;
+}
+
+ul li {
+	list-style: none;
+	display: inline-block;
+	line-height: 50px;
+	border: 1px solid #000;
+}
+
+ul li a {
+	font-size: 16px;
+	text-decoration: none; /*fjerner linjen under, der viser det er et link*/
+	font-family: arial;
+	color: black;
+	padding: 0 20px;
+	display: block; /*Gør at man ikke behøver trykke direkte på teksten, men også kan trykke udenom*/
+}
+
+ul li a:hover {
+	background-color: #FCE9F3;
+}
+
+body {
+	background-color: pink;
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 100%;
+  /*Fr = fraksion, hvis en fraksion er en størrelse, så er den næste dobbelt så stor. SKulle det omskrives til %, ville det være 25% og 75%*/
+  grid-template-areas:
+"logo menu"
+
