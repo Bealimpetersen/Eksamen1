@@ -58,7 +58,7 @@ nav ul li {
 nav ul li a {
 	font-size: 16px;
 	text-decoration: none; /*fjerner linjen under, der viser det er et link*/
-	font-family: arial;
+	font-family: poppins;
 	color: black;
 	padding: 0 20px;
 	display: block; /*Gør at man ikke behøver trykke direkte på teksten, men også kan trykke udenom*/
@@ -96,7 +96,7 @@ main ul li {
 main ul li a {
 	font-size: 16px;
 	text-decoration: none; /*fjerner linjen under, der viser det er et link*/
-	font-family: arial;
+	font-family: poppins;
 	color: black;
 	background-color: #E2DEF0;
 	padding: 0 20px;
@@ -109,10 +109,14 @@ ul li a:hover {
 
 .img-me {
 	grid-area: img-me;
+
 }
 
 .about {
 	grid-area: about;
+	font-family: poppins;
+	color: black;
+	text-align: center;
 }
 
 footer {
