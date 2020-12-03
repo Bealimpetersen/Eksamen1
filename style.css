@@ -31,7 +31,7 @@
 }
 
 .wrapper > * {
-    border: 2px solid #000000;
+    border: 2px solid #ffffff;
     background-color: #ffffff;
     border-radius: 5px;
     padding: 10px;
@@ -151,13 +151,13 @@ ul li a:hover {
 	padding: 30px;
 }
 
-
 .kompetencer {
 	grid-area: kompetencer;
 }
 
 .pinkbox {
 	width: 95%;
+	height: 500px;
 	background-color: #FCE9F3;
 	margin: auto;
 	padding: 20px;
@@ -168,7 +168,8 @@ ul li a:hover {
 	font-family: poppins;
 	text-align: center;
 	font-size: 50px;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
+	margin-top: 30px;
 }
 
 .icons {
@@ -188,6 +189,8 @@ ul li a:hover {
 	margin: 0 auto;
 	font-family: poppins;
 	text-align: center;
+	padding-bottom: 30px;
+	margin-top: 20px;
 }
 
 .portfolio {
