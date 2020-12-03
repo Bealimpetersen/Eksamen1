@@ -129,21 +129,28 @@ ul li a:hover {
 	align-items: center;
 }
 
+.about {
+	grid-area: about;
+}
+
 .about h1 {
 	font-size: 50px;
+	font-family: poppins;
+	text-align: center;
 }
 
 .about h2 {
-	font-size: 45px;
+	font-family: poppins;
+	text-align: center;
 }
 
-.about {
-	grid-area: about;
+.about p {
 	font-family: poppins;
 	color: black;
 	text-align: center;
 	padding: 30px;
 }
+
 
 .kompetencer {
 	grid-area: kompetencer;
