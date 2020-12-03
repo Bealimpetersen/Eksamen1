@@ -31,8 +31,6 @@
 }
 
 .wrapper > * {
-    border: 2px solid #ffffff;
-    background-color: #ffffff;
     border-radius: 5px;
     padding: 10px;
 }
@@ -42,6 +40,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #FCE9F3;
 }
 
 nav ul {
@@ -71,7 +70,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-	background-color: #FCE9F3;
+	background-color: #E2DEF0;
 }
 
 main {
@@ -134,7 +133,7 @@ ul li a:hover {
 
 .pinkbox2 {
 	width: 95%;
-	height: 0px;
+	height: 90%;
 	background-color: #FCE9F3;
 	margin: auto;
 	padding: 20px;
