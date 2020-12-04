@@ -355,5 +355,16 @@ ul li a:hover {
 .portfolio-page h1 {
 	font-size: 50px;
 }
+.sprite {
+	width: 500px; 
+	height: 500px;
+	background: url('../IMG/pingvin3-01.png') 0 0 no-repeat;
+	animation: play 1s steps(10) infinite;
+}
+
+@keyframes play {
+	0% { background-position: 0px; }
+	100% { background-position: -5000px; }
+}
 
 }
