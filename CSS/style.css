@@ -187,11 +187,12 @@ main ul li {
 
 .gallery {
 	display: flex;
-	flex-direction: column;
-	grid-template-columns: auto;
+	flex-direction: row;
+	flex-wrap: wrap;
 	grid-column-gap: 20px;
 	grid-row-gap: 20px;
 	justify-content: center;
+	margin-bottom: 20px;
 }
 
 .gallery img {
@@ -338,12 +339,6 @@ ul li a:hover {
 
 .icons {
 	grid-template-columns: auto auto auto;
-}
-
-.gallery {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
 }
 
 .oplysninger {
