@@ -73,7 +73,6 @@ main.welcomepicture {
 
 main ul li {
 	display: none;
-
 }
 
 .wrapper {
@@ -237,7 +236,6 @@ footer h2 {
 	text-align: center;
 }
 
-
 /*Tablet device*/
 @media only screen and (min-width: 400px) {
 
@@ -257,7 +255,6 @@ footer h2 {
 nav ul li a {
 	font-size: 16px;
 	padding: 0 20px;
-	
 }
 
 nav ul li a:hover {
@@ -308,7 +305,6 @@ ul li a:hover {
 	background-color: #FCE9F3;
 }
 
-
 .img-me {
 	grid-area: img-me;	
 }
@@ -348,6 +344,24 @@ ul li a:hover {
 	text-align: left;
 	grid-template-columns: auto auto;
 	justify-content: space-between;
+}
+
+.pinkbox1 {
+	width: 100%;
+	background-color: #FCE9F3;
+	margin: auto;
+	align-content: center;	
+	padding:10px;
+	}
+
+.kontaktoplysninger p { 
+	text-align: left; 
+	padding-left: 30px;
+}
+
+.socialmedia p {
+	text-align: left;
+	padding-right: 30px;
 }
 
 /*portfolio page mobile device*/
