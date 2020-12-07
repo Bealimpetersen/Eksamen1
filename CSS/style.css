@@ -197,11 +197,8 @@ main ul li {
 .gallery img {
 	display: grid;
 	margin: 0 auto;
-}
-
-.gallery img {
-	display: grid;
-	margin: 0 auto;
+	width: 200px; 
+	height: 200px; 
 }
 
 .pinkbox1 {
