@@ -142,7 +142,7 @@ main ul li {
 .pinkbox {
 	width: 100%;
 	background-color: #FCE9F3;
-	margin: 20px;
+	margin: auto;
 	align-content: center;
 	padding: 20px;
 }
@@ -208,9 +208,7 @@ main ul li {
 	background-color: #FCE9F3;
 	margin: auto;
 	align-content: center;	
-	padding:10px;
-	}
-
+}
 
 footer h1 {
 	font-family: poppins;
