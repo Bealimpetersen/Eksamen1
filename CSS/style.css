@@ -163,6 +163,8 @@ main ul li {
 .icons img {
 	display: grid;
 	margin: 0 auto;
+	width: 150px;
+	height: 150px;
 }
 
 .icons p {
@@ -220,15 +222,16 @@ footer h2 {
 	text-align: center;
 }
 
-.oplysninger p {
+.oplysninger {
 	display: grid;
-	margin: 0 auto;
 	font-family: poppins;
 	text-align: center;
+	margin: 20px;
 }
 
 .socialmedia {
 	text-align: center;
+	margin: 20px;
 }
 
 
@@ -258,6 +261,26 @@ footer h2 {
 	top: 30%;
 	left: 30%;
 }
+
+.oplysninger {
+	display: grid;
+	margin: 0 auto;
+	font-family: poppins;
+	text-align: left;
+	grid-template-columns: auto auto;
+	justify-content: space-between;
+}
+
+.kontaktoplysninger { 
+	text-align: left; 
+	padding-left: 30px;
+}
+
+.socialmedia {
+	text-align: left;
+	padding-right: 30px;
+}
+
 }
 
 /*Desktop device*/
@@ -352,15 +375,6 @@ ul li a:hover {
 	grid-template-columns: auto auto auto;
 }
 
-.oplysninger {
-	display: grid;
-	margin: 0 auto;
-	font-family: poppins;
-	text-align: left;
-	grid-template-columns: auto auto;
-	justify-content: space-between;
-}
-
 .pinkbox1 {
 	width: 100%;
 	background-color: #FCE9F3;
@@ -369,15 +383,6 @@ ul li a:hover {
 	padding:10px;
 	}
 
-.kontaktoplysninger p { 
-	text-align: left; 
-	padding-left: 30px;
-}
-
-.socialmedia p {
-	text-align: left;
-	padding-right: 30px;
-}
 
 /*portfolio page desktop device*/
 
