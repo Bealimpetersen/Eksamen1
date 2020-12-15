@@ -36,7 +36,7 @@ nav ul li {
 	display: inline-block;
 	line-height: 50px;
 	border: 1px solid #000;
-	margin: 10px;
+	margin-right: 30px;
 }
 
 nav ul li a {
@@ -227,11 +227,13 @@ footer h2 {
 	font-family: poppins;
 	text-align: center;
 	margin: 20px;
+	padding-bottom: 30px;
 }
 
 .socialmedia {
 	text-align: center;
 	margin: 20px;
+	padding-bottom: 30px;
 }
 
 
