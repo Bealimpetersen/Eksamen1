@@ -260,7 +260,7 @@ footer h2 {
 @media only screen and (min-width: 400px) {
 
 .welcometext {
-	top: 30%;
+	top: 20%;
 	left: 30%;
 }
 
@@ -286,7 +286,7 @@ footer h2 {
 }
 
 /*Desktop device*/
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1025px) {
 
 .logo-bea {
 	width: 100%;
